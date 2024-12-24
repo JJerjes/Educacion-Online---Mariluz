@@ -87,7 +87,7 @@ footer p {
     display: flex;
     justify-content: center;
 }
-@media (max-width: 350px) {
+@media (max-width: 390px) {
     header {
         display: flex;
         flex-wrap: wrap;

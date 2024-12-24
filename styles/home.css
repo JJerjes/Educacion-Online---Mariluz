@@ -59,6 +59,7 @@ main {
 .section-two {
     display: flex;
     flex-wrap: wrap;
+    padding: 10px;
 }
 
 .section-two h3 {
@@ -69,11 +70,13 @@ main {
 
 .section-two li {
     margin: 10px;
+    
 }
 
 .section-three {
     display: grid;
     grid-template-rows: auto auto;
+    padding: 10px;
 } 
 
 .section-three h3 {
@@ -84,4 +87,5 @@ main {
 
 .aditional li {
     margin: 10px;
+    
 }
