@@ -1,0 +1,87 @@
+main {
+    display: grid;
+    grid-template-columns: auto;
+    font-family: 'Montserrat', sans-serif;
+    margin: 10px;
+}
+
+.section {
+    margin: 5px;
+    border-radius: 10px;
+    background-color: #f1f1f1;
+}
+
+.section-one {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.section-one h2 {
+    text-align: center;
+    margin: 20px 5px 0  5px;
+}
+
+.section-one p {
+    text-align: center;
+    padding: 15px;
+}
+
+.cta-button {
+    display: flex;
+    margin: 10px auto;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    width: 80%;
+    padding: 10px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.4);
+    transition: all 0.5s ease;
+}
+
+.cta-button:hover {
+    background-color: aqua;
+    color: black;
+    transform: scale(1.1);
+}
+
+#whatsapp-button {
+    position: fixed;
+    top: 70px;
+    right: 20px;
+    transition: all 0.5s ease;
+}
+
+#whatsapp-button:hover {
+    transform: scale(1.2);
+}
+
+.section-two {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.section-two h3 {
+    width: 100%;
+    text-align: center;
+    margin: 20px auto;
+}
+
+.section-two li {
+    margin: 10px;
+}
+
+.section-three {
+    display: grid;
+    grid-template-rows: auto auto;
+} 
+
+.section-three h3 {
+    width: 100%;
+    text-align: center;
+    margin: 20px auto;
+}
+
+.aditional li {
+    margin: 10px;
+}

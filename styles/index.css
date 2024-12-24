@@ -8,6 +8,7 @@ body {
     display: grid;
     min-height: 100dvh;
     grid-template-rows: auto auto 1fr auto;
+    font-family: 'Montserrat', sans-serif;
 }
 
 header {
@@ -46,7 +47,7 @@ header h1 {
 }
 
 #menu.open::after {
-    content: '❌';
+    content: '✖️';
 }
 
 #menu-bar {
@@ -92,6 +93,7 @@ footer p {
         flex-wrap: wrap;
     }
     header h1 {
+        font-size: 2rem;
         margin: 0 0 20px 0;
     }
     #menu {
@@ -101,6 +103,7 @@ footer p {
     #menu-bar {
         display: flex;
         flex-direction: column;
+        
         display: none;
     }
 
@@ -141,6 +144,8 @@ footer p {
         display: none;
     }
     #menu-bar a {
+        justify-content: start;
+        width: 80%;
         border-top: 1px solid rgba(0, 0, 0, 0.2);
     }
     #menu-bar.open {
